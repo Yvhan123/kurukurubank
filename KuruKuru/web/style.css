@@ -1,0 +1,374 @@
+/* Page main styles */
+.page-mockup {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.page-mockup .div {
+  background-color: #000000;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.page-mockup .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 896px;
+  top: 157px;
+  left: 0;
+  background-color: #8434d3;
+}
+
+/* box bottom */
+.page-mockup .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 93px;
+  top: 774px;
+  left: 0;
+  background-color: #000000;
+}
+
+.page-mockup .motto {
+  position: absolute;
+  width: 912px;
+  height: 218px;
+  top: 253px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 72px;
+  letter-spacing: -1.22px;
+  line-height: normal;
+}
+
+.page-mockup .mottoSub {
+  position: absolute;
+  width: 699px;
+  height: 136px;
+  top: 458px;
+  left: 43%;
+  transform: translateX(-50%);
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;    
+}
+
+.page-mockup .imageCard {
+  position: absolute;
+  width: 330px;
+  height: 368px;
+  top: 21px;
+  left: 0;
+  object-fit: cover;   
+}
+
+.page-mockup .imageHeart{
+  position: absolute;
+  width: 330px;
+  height: 368px;
+  top: 409px;
+  left: 1110px;
+  object-fit: cover;   
+}
+
+.page-mockup .overlap {
+  position: absolute;
+
+  top: 120px;
+  left: 263px;
+}
+
+.page-mockup .usernameBox {
+  position: absolute;
+  width: 588px;
+  height: 74px;
+  top: 91px;
+  left: 163px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.page-mockup .passwordBox {
+  position: absolute;
+  width: 588px;
+  height: 74px;
+  top: 245px;
+  left: 163px;
+  background-color: #fffbfb;
+  border-radius: 20px;
+}
+
+.page-mockup .proceed {
+  position: absolute;
+  width: 588px;
+  height: 74px;
+  top: 650px;
+  left: 55%;
+  transform: translateX(-50%);
+  font-family: "Inter-Italic", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;
+}
+
+.page-mockup .rectangle-proceed {
+  position: absolute;
+  width: 588px;
+  height: 74px;
+  top: 625px;
+  left: 41%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.page-mockup .username {
+  position: absolute;
+  width: 214px;
+  height: 32px;
+  top: 37px;
+  left: 178px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;
+}
+
+.page-mockup .password {
+  position: absolute;
+  width: 214px;
+  height: 32px;
+  top: 202px;
+  left: 178px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;
+}
+
+.page-mockup .overlap-2 {
+  position: absolute;
+  width: 520px;
+  height: 108px;
+  top: 362px;
+  left: 269px;
+}
+
+.page-mockup .loginButton {
+  position: absolute;
+  width: 350px;
+  height: 89px;
+  top: 10px;
+  left: 0;
+  background-color: #8435d3;
+  border-radius: 20px;
+}
+
+.page-mockup .login {
+  position: absolute;
+  width: 418px;
+  height: 108px;
+  top: 10px;
+  left: 85px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: -0.82px;
+  line-height: normal;
+  text-align: left;
+}
+
+.page-mockup .logo-sized {
+  position: absolute;
+  width: 367px;
+  height: 124px;
+  top: 18px;
+  left: 62px;
+  object-fit: cover;
+}
+
+/* black box in the middle 1*/
+.box {
+ text-align: center;
+}
+/* black box in the middle 2*/
+.box .rectangleBlack {
+  text-align: center;  
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.authFailedLabel .authFailedText {
+  position: absolute;
+  top: 17%;
+  left: 31%;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: -0.82px;
+  line-height: normal;
+}
+
+.subAuthFailedLabel .subAuthFailedText{
+  position: absolute;
+  top: 30%;
+  left: 31%;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;
+}
+
+.nullFailedLabel .nullFailedText {
+  position: absolute;
+  top: 17%;
+  left: 33%;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: -0.82px;
+  line-height: normal;
+}
+
+.subNullFailedLabel .subNullFailedText {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;
+}
+
+.exceptionWhiteBox {
+  width: 277px;
+  height: 70px;
+}
+
+.exceptionWhiteBox .exceptionRectangle {
+  position: absolute;
+  width: 277px;
+  height: 70px;
+  top: 380px;
+  left: 580px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.loginAgainLabel .loginAgainText {
+  position: absolute;
+  width: 136px;
+  height: 45px;
+  top: 400px;
+  left: 660px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;
+}
+
+.error404Label .error404Text {
+  position: absolute;
+  top: 17%; 
+  left: 41%;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: -0.82px;
+  line-height: normal;
+}
+
+.subError404Label .subError404Text{
+  position: absolute;
+  top: 30%;
+  left: 31%;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;
+}
+
+.contactUsWhiteBox {
+  width: 277px;
+  height: 70px;
+}
+
+.contactUsWhiteBox .contactUsWhiteRectangle {
+  position: absolute;
+  width: 277px;
+  height: 70px;
+  top: 350px;
+  left: 580px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.contactUsLabel .contactUsText {
+  position: absolute;
+  width: 136px;
+  height: 45px;
+  top: 370px;
+  left: 660px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;
+}
+
+.logAgainWhiteBox .logAgainWhiteRectangle {
+  position: absolute;
+  width: 277px;
+  height: 70px;
+  top: 460px;
+  left: 580px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.logAgainLabel .logAgainText {
+  position: absolute;
+  width: 136px;
+  height: 45px;
+  top: 480px;
+  left: 660px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: -0.41px;
+  line-height: normal;
+}
+
